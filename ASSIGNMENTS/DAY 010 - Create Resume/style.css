@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(231, 230, 230);
+}
+.header{
+    background-color: #1d2240;
+    padding: 20px 0;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+}
+.header p{
+    font-weight: 100;
+    font-size: 15px;
+    background: transparent;
+    color: rgb(203, 203, 203);
+    font-style: italic;
+}
+main{
+    /* background: white; */
+    margin: 0 8rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+h3{
+    color: black;
+    font-weight: 600;
+    padding: 30px 0 10px 0;
+}
+p{
+    background: white;
+    margin: 10px 8rem;
+    padding: 10px;
+    color: rgb(32, 32, 32);
+    border-radius: 8px;
+    /* font-weight: 200; */
+}
+.about{
+    background: white;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.education{
+    background: rgb(173, 228, 249);
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+
+}
+.skills{
+    background: rgb(241, 244, 166);
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+
+}
+.skills p{
+    font-weight: 600;
+}
+.projects{
+    background: rgb(220, 173, 249);
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+
+}
+.projects P{
+    font-style:italic;
+}
+.contact{
+    background: rgb(173, 249, 178);
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+
+}
