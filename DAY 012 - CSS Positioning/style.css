@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    padding: 10%;
+}
+.box{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 179, 179);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+.container2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 173, 230);
+    position: relative;
+}
+.innercontainer{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(179, 255, 201);
+    position: relative;
+}
+.box2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 255, 179);
+    position: absolute;
+    top: 25%;
+}
