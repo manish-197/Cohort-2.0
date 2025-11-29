@@ -1,0 +1,178 @@
+@font-face {
+    font-family: bold;
+    src: url(@coolesttech\ -\ iOS\ \(BOLD\)Font.ttf);
+}
+@font-face {
+    font-family: lite;
+    src: url(@coolesttech\ -\ iOS\ Lite\ bold\ font.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: lite;
+    background: white;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 300;
+    background: rgba(48, 46, 46, 0.623);
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(iPhone\ 17\ pro.png);
+    background-size: cover;
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    /* font-family: bold; */
+}
+.main h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.learn{
+    background: royalblue;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+
+}
+.buy{
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: royalblue;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+
+}
+.main2{
+    color: black;
+    padding: 50px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(iPhone\ AIR.png);
+    background-size: cover;
+}
+.main2 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    /* font-family: bold; */
+}
+.main2 h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main3{
+    color: black;
+    margin: 15px 0 0 0;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(iPhone\ 17.png);
+    background-size: cover;
+}
+.main3 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    /* font-family: bold; */
+}
+.main3 h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.container{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con1{
+    color: black;
+    padding: 50px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    width: 48%;
+    height: 100vh; 
+    background-image: url(Watch\ Series.png);
+    background-size: cover;
+}
+.container h1{
+    /* font-size: 50px; */
+    margin-bottom: 10px;
+    /* font-family: bold; */
+}
+.container h3{
+    /* font-size: 25px; */
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.con2, .con3, .con4, .con5, .con6{
+    color: black;
+    padding: 50px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    width: 48%;
+    height: 100vh; 
+    background-image: url(AirPods\ 3.png);
+    background-size: cover;
+}
+.con3{
+    background-image: url(Education.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.con4{
+    background-image: url(MackBook\ Air\ M4.png);
+}
+.con5{
+    background-image: url(Trade\ In.png);
+}
+.con6{
+    background-image: url(Apple\ Card.png);
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  height: 93vh;
+//   width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+  section{
+    // height: 100vh;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  section:hover{
+    flex-grow: 2;
+  }
+
+  section:nth-child(1){
+    background-image: url(spider\ man.jpg);
+  }
+  section:nth-child(2){
+    background-image: url(hulk.jpg);
+  }
+  section:nth-child(3){
+    background-image: url(ironman.jpg);
+  }
+  section:nth-child(4){
+    background-image: url(loki.jpg);
+  }
+  section:nth-child(5){
+    background-image: url(thor.jpg);
+  }
+}

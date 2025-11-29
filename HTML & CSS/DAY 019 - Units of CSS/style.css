@@ -1,0 +1,74 @@
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+}
+
+.box1{
+    background: crimson;
+    width: 400px;
+    height: 200px;
+}
+
+.box2{
+    background: rgb(220, 177, 20);
+    width: 25%;
+    height: 200px;
+}
+
+.box3{
+    background: rgb(113, 220, 20);
+    width: 400px;
+    height: 200px;
+}
+.box3 h1{
+    font-size: 5vw;
+}
+.box4{
+    background: rgb(20, 170, 220);
+    width: 400px;
+    height: 200px;
+}
+.box4 h1{
+    font-size: 5vh;
+}
+.box5{
+    background: rgb(20, 47, 220);
+    width: 400px;
+    height: 200px;
+}
+.box5 h1{
+    font-size: 5vmax;
+}
+.box6{
+    background: rgb(157, 20, 220);
+    width: 400px;
+    height: 200px;
+}
+.box6 h1{
+    font-size: 5vmin;
+}
+.box7{
+    background: rgb(220, 20, 133);
+    width: 400px;
+    height: 200px;
+    font-size: 29px;
+}
+.box7 h1{
+    font-size: 2em;
+}
+.box7 h2{
+    font-size: 1em;
+}
+.box8{
+    background: rgb(140, 106, 113);
+    width: 400px;
+    height: 200px;
+}
+.box8 h1{
+    font-size: 1rem;
+}

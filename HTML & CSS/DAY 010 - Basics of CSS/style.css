@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "myFont";
+    src: url(Sweet\ Toffee.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: palegoldenrod;
+    background: cadetblue;
+}
+p{
+    font-family: "myFont", sans-serif;
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    background: green;
+}
+.container h3{
+    color: palegoldenrod;
+    font-size: 50px;
+}
+.container p{
+    font-size: 20px;
+    padding: 10px;
+}
+#container2{
+    border: 2px solid rgb(255, 255, 255);
+    background: green;
+}
+#container2 h3{
+    color: palegoldenrod;
+    font-size: 50px;
+}
+#container2 p{
+    font-size: 20px;
+    padding: 10px;
+}
