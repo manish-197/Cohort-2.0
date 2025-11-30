@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px 20px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    background: crimson;
+    color: white;
+}
+
+button:active{
+    background-color: silver;
+    scale: 0.90;
+}
