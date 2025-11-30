@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    padding: 5px 10px;
+    background-color: crimson;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    z-index: 10000;
+}
+button:active{
+    scale: 0.90;
+}
