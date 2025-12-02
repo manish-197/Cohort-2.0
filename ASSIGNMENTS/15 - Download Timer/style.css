@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: white; */
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    /* gap: 10px; */
+}
+
+.card p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 10px;
+}
+.card p span {
+    color: blue;
+}
+.outer{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(193, 189, 189);
+    border-radius: 30px;
+}
+.inner{
+    background-color: green;
+    height: 100%;
+    width: 0%;
+    border-radius: 30px;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.90;
+}
+
