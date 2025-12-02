@@ -25,9 +25,6 @@ btn.addEventListener('click', ()=>{
     h1.style.rotate = r+'deg'
     h1.style.scale = scl
 
-
     main.appendChild(h1)
 
-    
-    
 })
