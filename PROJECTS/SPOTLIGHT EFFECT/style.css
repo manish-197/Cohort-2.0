@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+:root{
+    --x: 200px;
+    --y: 200px;
+}
+video{
+    height: 99%;
+    width: 100%;
+    z-index: 9;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background: radial-gradient(150px at var(--x) var(--y), transparent , rgba(0, 0, 0, 0.945) 80%);
+}
