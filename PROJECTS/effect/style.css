@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    /* background-color: grey; */
+    /* padding: 10px 20px; */
+    border-radius: 8px;
+    anchor-name: --some-anchor;
+}
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1;
+    padding: 10px 15px;
+    color: black;
+}
+h4:hover{
+    anchor-name: --some-anchor;
+}
+nav:has(h4:hover) h4{
+    /* transform: scale(0.8); */
+    opacity: 0.5;
+}
+h4:hover{
+    opacity: 1 !important;
+    transform: scale(1.2) !important;
+    font-style: italic;
+    color: white;
+}
+h4:hover ~ .anchor{
+    background-color: rgb(136, 194, 239);
+}
+.anchor{
+    position: absolute;
+    position-anchor: --some-anchor;
+    top: anchor(top);
+    left: anchor(left);
+    bottom: anchor(bottom);
+    right: anchor(right);
+    border: 2px solid black;
+    z-index: 0;
+    /* width: 100%;
+    height: 100%; */
+    background-color: #c9c5c5;
+    border-radius: 8px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
