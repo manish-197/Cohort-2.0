@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(124, 32, 190);
+    color: whitesmoke;
+    padding: 5px 20px;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+.nav-list li{
+    padding: 4px 10px;
+}
