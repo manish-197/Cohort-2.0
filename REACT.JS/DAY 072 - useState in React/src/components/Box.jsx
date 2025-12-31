@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Box = () => {
-
-
-    
-
+   
+    function Clicked() {
+     alert("button is Clicked....")   
+    }
 
   return (
     <div className='container'>
 
         <div className="btn-container">
-            <button>Click Me!</button>
+            <button onClick={Clicked}>Click Me!</button>
         </div>
         <h2>
-            hello guys
+            
         </h2>
       
     </div>
