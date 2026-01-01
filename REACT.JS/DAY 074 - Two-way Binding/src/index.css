@@ -62,3 +62,37 @@ html, body {
 .form-btn:active{
   scale: 0.9;
 }
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid grey;
+  width: 25vw;
+  gap: 5px;
+  padding: 5px 5px;
+}
+.profile{
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: opx 5px;
+}
+.details h3{
+  font-size: 17px;
+}
+.details p{
+  font-size: 14px;
+}

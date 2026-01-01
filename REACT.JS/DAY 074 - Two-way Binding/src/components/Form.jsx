@@ -1,39 +1,37 @@
 import React from "react";
-import Contact from "./Contact.jsx";
-
 
 const Form = () => {
+  const [name, setName] = React.useState("");
+  const [number, setNumber] = React.useState("");
 
-    const [name, setName] = React.useState('');
-    const [number, setNumber] = React.useState('');
+  const [allUser, setAllUser] = React.useState([]);
 
-    const [allUser, setAllUser] = React.useState([]);
+  function submitHandler(reload) {
+    reload.preventDefault();
 
-    function submitHandler(reload) {
-        console.log(oldUser.name);
-        reload.preventDefault();
+    setAllUser([...allUser, { name, number }]);
 
-        setAllUser([...allUser, {name, number}])
-
-        setName('');
-        setNumber('');
-    }
-
+    setName("");
+    setNumber("");
+  }
 
   return (
     <div className="mobile">
       <div className="form-container">
-        <form className="form" onSubmit={(reload) =>{
-            submitHandler(reload)
-        }}>
+        <form
+          className="form"
+          onSubmit={(reload) => {
+            submitHandler(reload);
+          }}
+        >
           <div className="form-input-container">
             <input
               className="form-inputs"
               type="text"
               placeholder="Enter Name"
               value={name}
-              onChange={(val) =>  {
-                setName(val.target.value)
+              onChange={(val) => {
+                setName(val.target.value);
               }}
             />
             <input
@@ -42,14 +40,26 @@ const Form = () => {
               placeholder="Enter No."
               value={number}
               onChange={(val) => {
-                setNumber(val.target.value)
+                setNumber(val.target.value);
               }}
             />
           </div>
           <button className="form-btn">Submit</button>
         </form>
       </div>
-              <Form allUser={allUser}/>
+      <div className="contact">
+        {allUser.map((elem) => {
+          return (
+            <div className="list">
+              <div className="profile"></div>
+              <div className="details">
+                <h3>{elem.name}</h3>
+                <p>{elem.number}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
