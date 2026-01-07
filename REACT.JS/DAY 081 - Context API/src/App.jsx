@@ -4,14 +4,14 @@ import Form from './components/Form'
 const App = () => {
 
   const [theme, setTheme] = React.useState('');
-  const changeTheme = (u) => {
-    setTheme(u);
+  const changeTheme = (newTheme) => {
+    setTheme(newTheme);
   }
  
   return (
     <div>
       <h1>This theme is {theme}</h1>
-      <Form  changeTheme={changeTheme()}/>
+      <Form  changeTheme={changeTheme}/>
     </div>
   )
 }

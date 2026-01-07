@@ -11,7 +11,7 @@ const Form = (props) => {
 
         props.changeTheme(newTheme)
 
-        newTheme('')
+        setNewTheme('')
       }}>
         <input type="text" placeholder='enter the theme'
         value={newTheme}
