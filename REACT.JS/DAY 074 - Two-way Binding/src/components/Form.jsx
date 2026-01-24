@@ -1,15 +1,15 @@
 import React from "react";
-
 const Form = () => {
   const [name, setName] = React.useState("");
   const [number, setNumber] = React.useState("");
-
   const [allUser, setAllUser] = React.useState([]);
 
   function submitHandler(reload) {
     reload.preventDefault();
+    const newUser = { name: name, number: number};
+    const updateUser = [...allUser, newUser];
 
-    setAllUser([...allUser, { name, number }]);
+    setAllUser(updateUser);
 
     setName("");
     setNumber("");
