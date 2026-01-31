@@ -36,5 +36,4 @@ app.put("/notes/:index", (req, res) => {
   res.send("note updated by put method");
 });
 
-
 module.exports = app;
