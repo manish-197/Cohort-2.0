@@ -10,7 +10,7 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
 }
-
+/* 
 .notes{
   width: 100%;
   height: 100%;
@@ -27,4 +27,96 @@ html, body {
   background-color: gray;
   color: white;
   border-radius: 1rem;
+} */
+.app{
+  /* display: flex;
+  align-items: center;
+  justify-content: center */
+}
+
+.data-input{
+  width: 36vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;  
+  background-color: rgb(255, 68, 0);
+  position: fixed;
+  left: 0;
+}
+
+.data-form{
+  background-color: aqua;
+  width: 30vw;
+  /* height: 90vh;   */
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+.data-input-box{
+  height: 2rem;
+  margin: .5rem;
+  font-size: .9rem;
+  background-color: rgba(255, 255, 255, 0.479);
+  color: black;
+  border-radius: 5rem;
+  border: 2px solid black;
+  padding: .5rem;
+}
+.data-submit{
+  height: 2rem;
+  margin: .5rem;
+  font-size: .9rem;
+  /* background-color: rgba(255, 255, 255, 0.479); */
+  color: black;
+  border-radius: 5rem;
+  border: 2px solid black;
+}
+.data-submit:active{
+  scale: .98;
+}
+
+.show-data{
+  position: absolute;
+  right: 0;
+  min-width: 64vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+  background-color: rgb(196, 157, 157);
+}
+.collection{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.note{
+  width: 60vw;
+  border-radius: 5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  background-color: gray;
+  padding: 1rem;
+  position: relative;
+  
+}
+.delete{
+  /* padding: .5rem; */
+  font-size: 1.5rem;
+  width: 1.7rem;
+  transform: rotate(45deg);
+  background-color: red;
+  position: absolute;
+  right: 0;
+  border: none;
+  border-radius: 5rem;
+  margin: 0 2rem;
 }
