@@ -65,6 +65,9 @@ authRouter.post("/login", async (req,res) => {
             email: user.email
         },
         process.env.JWT_SECRET_KEY,
+        {
+            expiresIn: "24h"
+        }1
     )
     res.cookie("jwt_token", token)
 
